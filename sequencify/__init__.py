@@ -8,7 +8,7 @@ def sequence(tasks, names, results, missing, recursive, nest):
             node = tasks[name]
             if name in nest:
                 nest.append(name)
-                recursive.append(nest.copy())
+                recursive.append(nest[:])
                 nest.pop()
             elif node['dep']:
                 nest.append(name)
