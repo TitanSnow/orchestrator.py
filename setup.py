@@ -6,6 +6,7 @@ setup(
     author='TitanSnow',
     author_email='tttnns1024@gmail.com',
     description='A module for sequencing tasks and dependencies',
+    long_description=open('README.rst').read(),
     url='https://github.com/TitanSnow/sequencify.py',
     license='LGPLv2.1',
     platforms=['any'],
